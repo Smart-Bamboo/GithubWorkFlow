@@ -28,24 +28,6 @@ We follow the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workfl
 - `dev`: The develop branch is where new features and bug fixes are tested before being merged into the main branch.
 - Feature branches: For each new feature or bug fix, create a new branch from the `main` branch. Use descriptive branch names and prefix them with a feature or bug number.
 
-
-## Code Review
-
-Code reviews are an essential part of our development process. Before merging any code into `main` branche, it must be reviewed by at least one team member. Follow these steps for code review:
-
-1. Create a pull request (PR) from your feature branch to the `main` branch.
-2. Assign the PR to a team member for review.
-3. The reviewer will provide feedback, suggest improvements, and discuss any necessary changes.
-4. Once the code is approved, the reviewer will merge the PR into the target branch.
-
-## Documentation
-
-We value clear and concise documentation to maintain a well-documented codebase. Document important concepts, architectural decisions, APIs, and any other relevant information to facilitate understanding and maintainability. We use Markdown for documentation.
-
-## Continuous Integration
-
-We have set up a continuous integration (CI) pipeline to automatically build, test, and analyze our code. The CI process is triggered whenever a pull request is opened or updated. Ensure that all tests pass, and any required checks or quality standards are met before merging your code.
-
 ## Conventional Commits
 
 We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for our commit messages. This convention helps provide a consistent structure to our commit messages and enables automated processes such as generating changelogs and versioning.
@@ -63,6 +45,23 @@ Following this convention helps maintain a clear commit history and improves col
 To automate our release process and generate changelogs automatically, we use tools such as [Conventional Commits CLI](https://www.npmjs.com/package/conventional-commits-cli) or [Commitizen](https://commitizen.github.io/cz-cli/). These tools provide interactive prompts to guide you through creating conventional commits.
 
 Remember that well-formed commit messages contribute to better code understanding, easier debugging, and streamlined release processes.
+
+## Code Review
+
+Code reviews are an essential part of our development process. Before merging any code into `main` branche, it must be reviewed by at least one team member. Follow these steps for code review:
+
+1. Create a pull request (PR) from your feature branch to the `main` branch.
+2. Assign the PR to a team member for review.
+3. The reviewer will provide feedback, suggest improvements, and discuss any necessary changes.
+4. Once the code is approved, the reviewer will merge the PR into the target branch.
+
+## Documentation
+
+We value clear and concise documentation to maintain a well-documented codebase. Document important concepts, architectural decisions, APIs, and any other relevant information to facilitate understanding and maintainability. We use Markdown for documentation.
+
+## Continuous Integration
+
+We have set up a continuous integration (CI) pipeline to automatically build, test, and analyze our code. The CI process is triggered whenever a pull request is opened or updated. Ensure that all tests pass, and any required checks or quality standards are met before merging your code.
 
 ## Deployment
 
